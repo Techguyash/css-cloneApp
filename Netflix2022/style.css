@@ -1,0 +1,270 @@
+:root {
+  --primary-color: #e50914;
+  --dark-color: #141414;
+  --font-color: rgb(243, 243, 243);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  --webkit-font-smoothing: antialiased;
+  background-color: #000;
+  color: #999;
+}
+
+.showcase {
+  height: 99vh;
+  background: #999;
+  width: 100%;
+  position: relative;
+  background: url(asset/banner.png) no-repeat center center/cover;
+}
+.showcase::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 10px 50px 150px #000000, inset -30px 100px 150px #000000;
+}
+
+.header {
+  position: relative;
+  height: 90px;
+  z-index: 2;
+
+  padding-top: 1em;
+}
+
+.header img {
+  width: 140px;
+  position: absolute;
+  transform: translate(28%, 50%);
+}
+
+.header a {
+  position: absolute;
+  left: 85%;
+  transform: translate(28%, 50%);
+}
+
+.showcase-content {
+  position: absolute;
+  top: 30%;
+  left: 25%;
+  color: #fff;
+  z-index: 3;
+  width: 55%;
+}
+.showcase-content h1 {
+  font-size: 4rem;
+  width: 50rem;
+  text-align: center;
+  margin: 1rem;
+  line-height: 1em;
+}
+.showcase-content h2 {
+  font-size: 1.6rem;
+  width: 50rem;
+  text-align: center;
+}
+.showcase-content p {
+  font-size: 1.2rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.showcase-content input[type="text"] {
+  height: 2.6rem;
+  width: 60%;
+  align-items: center;
+  position: absolute;
+  left: 10%;
+  top: 102%;
+  margin: 1.5rem;
+  outline: none;
+}
+.showcase-content input[type="text"]::placeholder {
+  font-size: medium;
+  outline: none;
+  padding: 1rem;
+  border: none;
+}
+.showcase-content a {
+  position: absolute;
+  left: 70%;
+  top: 112.5%;
+}
+.banner {
+  color: #fff;
+  position: relative;
+}
+
+.watch-on-tv {
+  border-top: 10px solid #222;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.banner-1-content {
+  margin: 10rem;
+  padding: 0.4rem;
+  width: 70%;
+}
+.banner-1-content h2 {
+  font-size: 3rem;
+  margin: 1rem;
+}
+.banner-1-content h3 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  text-align: left;
+}
+.watch-on-phone {
+  border-top: 10px solid #222;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.bannner-2-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bannner-2-content h2 {
+  font-size: 3.2rem;
+  margin: 1rem;
+}
+.bannner-2-content h3 {
+  font-size: 2rem;
+  font-weight: 100;
+  text-align: left;
+}
+
+.faq {
+  border-top: 10px solid #222;
+  height: max-content;
+  color: #fff;
+  width: 100%;
+}
+
+.faq .faq-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 2.5rem;
+}
+
+.faq .questions {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 50;
+}
+
+.faq .questions .quest {
+  background: #303030;
+  margin: 0.2rem;
+  width: 45rem;
+  padding: 1rem 1.4rem;
+  font-weight: 400;
+}
+
+.member {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 10rem;
+  border-bottom: 10px solid #222;
+}
+.member h4 {
+  font-weight: 500;
+}
+.emailsubscribe {
+  display: flex;
+  gap: 0px;
+}
+.member .emailsubscribe input[type="text"] {
+  height: 2.2rem;
+  margin: 0rem 0rem;
+  width: 20rem;
+  border: 0;
+  outline: none;
+  padding: 0.4rem;
+  font-size: 0.4rem;
+}
+.member > h4 {
+  margin-bottom: 1rem;
+}
+.member .emailsubscribe input::placeholder {
+  font-size: 1.2rem;
+  padding: 1rem;
+}
+
+.contact {
+  margin-top: 7rem;
+  margin-left: 8rem;
+  color: rgb(138, 138, 138);
+}
+
+.quick-link {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 0rem;
+  margin-left: 5rem;
+  padding: 2rem 3rem;
+  font-size: 1srem;
+  color: rgb(138, 138, 138);
+}
+
+.quick-link .quick-link-1,
+.quick-link-2,
+.quick-link-3,
+.quick-link-4 {
+  line-height: 2rem;
+}
+
+.contact {
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* utility */
+.btn {
+  display: inline-block;
+  background: var(--primary-color);
+  color: #fff;
+  padding: 0.4rem 1rem;
+  font-size: 1.2rem;
+  border: none;
+  cursor: pointer;
+  margin-right: 0.5rem;
+  outline: none;
+  box-shadow: 0 1px 0 rgba(0, 0, 0 0.45);
+}
+
+.btn-sm {
+  height: 1.3rem;
+}
+.btn-lg {
+  font-size: 1.8rem;
+}
+
+select {
+  margin-top: 2rem;
+  height: 2rem;
+  background: rgb(114, 111, 111);
+  color: #fff;
+  outline: none;
+}
