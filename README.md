@@ -1,32 +1,36 @@
-## Welcome to GitHub Pages
+## Welcome to css-cloneApp
 
 You can use the [editor on GitHub](https://github.com/Techguyash/css-cloneApp/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### About this repo
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+This repo contains apps cloned for educational purpose
 
 ```markdown
-Syntax highlighted code block
+This repo contains the following apps
 
-# Header 1
-## Header 2
-### Header 3
+# Netflix 2019
+# Netflix 2022
 
-- Bulleted
-- List
+Languages used in this repo
 
-1. Numbered
-2. List
+# CSS3
+# HTML
+# JavaScript
 
-**Bold** and _Italic_ and `Code` text
+Libraries used
 
-[Link](url) and ![Image](src)
+# font-awesome
+# google fonts
+# bootstrap5
+
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
+Contact author see[Techguyash](https://github.com/Techguyash).
 
 ### Jekyll Themes
 
