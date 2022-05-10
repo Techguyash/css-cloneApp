@@ -13,6 +13,7 @@ This repo contains the following apps
 
 # Netflix 2019
 # Netflix 2022
+# Zomato 2019
 
 Languages used in this repo
 
