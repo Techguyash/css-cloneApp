@@ -12,21 +12,28 @@ This repo contains apps cloned for educational purpose
 This repo contains the following apps
 
 # Netflix 2019
+
 # Netflix 2022
+
 # Zomato 2019
+
+# Google Search 2023
 
 Languages used in this repo
 
 # CSS3
+
 # HTML
+
 # JavaScript
 
 Libraries used
 
 # font-awesome
-# google fonts
-# bootstrap5
 
+# google fonts
+
+# bootstrap5
 ```
 
 For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
